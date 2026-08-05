@@ -1,5 +1,5 @@
 {
-  "kbVersion": "1.0.0",
+  "kbVersion": "1.1.0",
   "generatedAt": "2026-08-05",
   "instructionHierarchy": [
     "Immediate life-safety and emergency instructions",
@@ -42,6 +42,16 @@
         "lpg smell",
         "propane leak",
         "smell gas"
+      ],
+      "keywords": [
+        "smell propane",
+        "smell gas",
+        "gas leak inside",
+        "rotten egg smell",
+        "propane smell"
+      ],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "strong rotten egg odour",
@@ -178,6 +188,15 @@
         "lpg alarm",
         "detector sounding",
         "alarm sounding"
+      ],
+      "keywords": [
+        "lpg alarm",
+        "co alarm",
+        "carbon monoxide alarm",
+        "gas alarm sounding"
+      ],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "alarm beeping continuously",
@@ -324,6 +343,10 @@
         "alarm keeps beeping",
         "sensitive alarm"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "alarm sounds briefly after using a spray",
         "alarm triggers when cleaning"
@@ -386,6 +409,14 @@
         "smoke detector",
         "cooking alarm",
         "steam alarm"
+      ],
+      "keywords": [
+        "smoke alarm",
+        "smoke while cooking",
+        "smoke detector sounding"
+      ],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "alarm sounds when cooking or making steam"
@@ -475,6 +506,10 @@
         "beeping detector",
         "9v battery"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "periodic chirping sound from the ceiling"
       ],
@@ -523,6 +558,14 @@
         "extinguisher",
         "flames",
         "burning"
+      ],
+      "keywords": [
+        "fire",
+        "fire extinguisher",
+        "put out a fire"
+      ],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "flames",
@@ -601,6 +644,18 @@
         "open windows",
         "close windows",
         "roof vent"
+      ],
+      "keywords": [
+        "open the windows",
+        "close the windows",
+        "roof vents",
+        "ventilation",
+        "air out the rv"
+      ],
+      "intents": [
+        "emergency",
+        "prevention",
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Closed for dust. Open for gas, smoke or an alarm.",
@@ -716,6 +771,10 @@
         "exit window",
         "escape"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "The emergency exit is a rear window marked EXIT.",
       "steps": [
@@ -761,6 +820,10 @@
         "no generator",
         "generator problem",
         "generator dead"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "generator cranks but does not fire",
@@ -881,6 +944,14 @@
         "warm up generator",
         "generator startup"
       ],
+      "keywords": [
+        "before starting the generator",
+        "generator checks"
+      ],
+      "intents": [
+        "procedure",
+        "daily-routine"
+      ],
       "symptoms": [],
       "immediateAction": "Check oil and fuel, then allow 3 to 4 minutes warm-up before using appliances.",
       "steps": [
@@ -943,6 +1014,10 @@
         "generator shuts off",
         "oil alert"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "generator only runs while the start switch is held"
       ],
@@ -996,6 +1071,10 @@
         "generator breaker",
         "overload",
         "genset breaker"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "generator running but no 120-volt power"
@@ -1056,6 +1135,10 @@
         "hunting",
         "generator rough"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "generator speed rises and falls"
       ],
@@ -1099,6 +1182,10 @@
         "generator oil",
         "genset oil",
         "dipstick"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Check the oil every eight hours of running, and top up in quarter-quart increments.",
@@ -1161,6 +1248,10 @@
         "generator fuel",
         "quarter tank"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "generator shut off on its own"
       ],
@@ -1218,6 +1309,10 @@
         "quiet hours",
         "generator noise",
         "neighbours"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Use the generator sparingly and not at night.",
@@ -1278,6 +1373,15 @@
         "boondocking",
         "charging schedule",
         "house battery charging"
+      ],
+      "keywords": [
+        "charging schedule",
+        "how often to charge",
+        "run the engine to charge"
+      ],
+      "intents": [
+        "daily-routine",
+        "procedure"
       ],
       "symptoms": [
         "lights dimming",
@@ -1383,6 +1487,18 @@
         "dust storm charging",
         "storm generator"
       ],
+      "keywords": [
+        "charge during a dust storm",
+        "generator in a dust storm",
+        "engine in a dust storm",
+        "run the generator in a storm",
+        "charging during a whiteout"
+      ],
+      "intents": [
+        "procedure",
+        "prohibition",
+        "troubleshoot"
+      ],
       "symptoms": [
         "battery low during a dust storm"
       ],
@@ -1436,6 +1552,10 @@
         "battery disconnect",
         "main battery switch",
         "house battery switch"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "no 12-volt power in the RV"
@@ -1498,6 +1618,10 @@
         "dead battery",
         "low battery",
         "no interior power"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "interior lights not working",
@@ -1563,6 +1687,19 @@
         "outlets dead",
         "no electricity",
         "power out"
+      ],
+      "keywords": [
+        "outlets not working",
+        "outlets are dead",
+        "sockets not working",
+        "no 120 volt",
+        "no mains power",
+        "receptacles dead",
+        "why are the outlets not working",
+        "plugs not working"
+      ],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "outlets dead",
@@ -1631,6 +1768,15 @@
         "breaker panel",
         "tripped breaker"
       ],
+      "keywords": [
+        "reset a breaker",
+        "tripped breaker",
+        "breaker box"
+      ],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "breaker sitting in the middle position",
         "some circuits dead"
@@ -1693,6 +1839,20 @@
         "ground fault",
         "reset outlet"
       ],
+      "keywords": [
+        "reset the outlet",
+        "reset outlet",
+        "gfci outlet",
+        "gfi outlet",
+        "ground fault outlet",
+        "outlets stopped working",
+        "reset button",
+        "sockets stopped working"
+      ],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "kitchen or living area outlets dead but appliances still have power"
       ],
@@ -1749,6 +1909,11 @@
         "fuse",
         "blown fuse",
         "12 volt fuse"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
       ],
       "symptoms": [
         "one circuit dead with breakers all on"
@@ -1810,6 +1975,10 @@
         "30 amp",
         "50 amp",
         "shore power"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "no power when plugged in"
@@ -1954,6 +2123,13 @@
         "120 volt",
         "electrical system"
       ],
+      "keywords": [
+        "12 volt vs 120 volt",
+        "what needs the generator"
+      ],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Lights, fridge and water pump run on 12 volt. Microwave, roof A/C and outlets need 120 volt.",
       "steps": [
@@ -2008,6 +2184,10 @@
         "solar",
         "solar panel",
         "trickle charge"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "red light flashing on the solar controller"
@@ -2084,6 +2264,11 @@
         "jump start",
         "engine won't start"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "engine will not crank",
         "ignition key turns but nothing happens"
@@ -2144,6 +2329,10 @@
         "ac setting",
         "79 degrees",
         "cooling"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "RV not cooling enough",
@@ -2207,6 +2396,10 @@
         "dual ac",
         "both air conditioners",
         "one ac"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "generator breaker trips when the second A/C starts"
@@ -2314,6 +2507,10 @@
         "ac not cold",
         "iced up"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "A/C running but no cold air",
         "ice on the A/C"
@@ -2374,6 +2571,10 @@
       "aliases": [
         "ac not working",
         "air conditioner dead"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "no response from the A/C"
@@ -2454,6 +2655,10 @@
         "ac leak",
         "dripping water"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "clear water running off the roof",
         "clear fluid under the A/C"
@@ -2511,6 +2716,10 @@
         "thermostat",
         "temperature control",
         "mode button"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Press MODE to choose COOL or FURNACE, set FAN to AUTO, then set the temperature.",
@@ -2626,6 +2835,10 @@
         "furnace",
         "warm up"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Set the thermostat to FURNACE with the fan on AUTO. It runs on propane.",
       "steps": [
@@ -2686,6 +2899,11 @@
         "no heat",
         "furnace cold"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "fan runs but air is cold"
       ],
@@ -2733,6 +2951,10 @@
         "furnace vent",
         "hot vent",
         "exterior vent"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "There is a live gas flame behind the cover. Keep people, pets and flammables clear.",
@@ -2784,6 +3006,10 @@
         "water conservation",
         "save water",
         "short showers"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "fresh water running low"
@@ -2844,6 +3070,10 @@
         "water loss",
         "toilet stuck"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "water continues to flow into the bowl after flushing"
       ],
@@ -2901,6 +3131,10 @@
         "potable water",
         "refill water",
         "meco reno"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "fresh water tank empty"
@@ -2965,6 +3199,10 @@
         "fill tank",
         "water tank"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Connect the hose to the fresh tank fill port and fill slowly until it overflows.",
       "steps": [
@@ -3022,6 +3260,11 @@
         "pressure regulator",
         "mains water"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure",
+        "prohibition"
+      ],
       "symptoms": [],
       "immediateAction": "Fit the pressure regulator first, then connect to the city water port — not the tank fill.",
       "steps": [
@@ -3078,6 +3321,10 @@
         "water pump",
         "pump switch",
         "pump"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "no water at the taps"
@@ -3141,6 +3388,10 @@
         "run dry",
         "pump damage"
       ],
+      "keywords": [],
+      "intents": [
+        "prohibition"
+      ],
       "symptoms": [
         "pump running with no water delivered"
       ],
@@ -3195,6 +3446,10 @@
         "no water",
         "taps dry",
         "no fresh water"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "nothing comes out of the taps"
@@ -3256,6 +3511,10 @@
         "airlock",
         "pump won't prime"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "pump runs but no water after a refill"
       ],
@@ -3314,6 +3573,11 @@
         "third port",
         "black tank flush"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "prohibition"
+      ],
       "symptoms": [],
       "immediateAction": "Do not use the black tank flush port.",
       "steps": [
@@ -3365,6 +3629,10 @@
         "shower",
         "water saver",
         "shower head"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "no flow from the shower head"
@@ -3462,6 +3730,10 @@
         "hot water",
         "tankless",
         "boiler"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Press the water heater button on the monitor panel. How long it takes depends on which type is fitted.",
@@ -3577,6 +3849,10 @@
         "cold shower",
         "water heater not working"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "water stays cold"
       ],
@@ -3634,6 +3910,11 @@
         "flt",
         "ignition failure"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "DSI/FLT light above the switch stays on continuously"
       ],
@@ -3685,6 +3966,10 @@
         "relief valve",
         "water heater drip"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "a few drips from the exterior water heater cover"
       ],
@@ -3728,6 +4013,10 @@
         "water heater vent",
         "hot cover"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "There is a live flame behind the cover. Keep clear when it is running.",
       "steps": [
@@ -3770,6 +4059,10 @@
         "flush",
         "foot pedal",
         "bathroom"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "odours from the bathroom"
@@ -3837,6 +4130,10 @@
         "one ply",
         "tp",
         "rv toilet paper"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "At Burning Man, use one-ply toilet paper.",
@@ -3925,6 +4222,10 @@
         "toilet chemical",
         "chemical pod",
         "black tank treatment"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "odours after emptying"
@@ -4015,6 +4316,10 @@
         "gray tank",
         "holding tanks"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Black is the toilet. Grey is the sinks and shower.",
       "steps": [
@@ -4086,6 +4391,10 @@
         "dumping",
         "empty tanks",
         "drain tanks"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "tanks full"
@@ -4177,6 +4486,14 @@
         "united site services",
         "waste service"
       ],
+      "keywords": [
+        "pump the tanks",
+        "waste service",
+        "pumping service"
+      ],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "tanks full on the playa"
       ],
@@ -4241,6 +4558,14 @@
         "dump on the playa",
         "dump black water"
       ],
+      "keywords": [
+        "dump on the playa",
+        "dump grey water",
+        "dump black water"
+      ],
+      "intents": [
+        "prohibition"
+      ],
       "symptoms": [],
       "immediateAction": "Dumping on the playa is strictly prohibited and BLM will cite you.",
       "steps": [
@@ -4296,6 +4621,10 @@
         "hose reach",
         "30 feet"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Service hoses cannot reach beyond 30 feet. Keep your RV accessible.",
       "steps": [
@@ -4347,6 +4676,10 @@
         "tank sensor",
         "level reading",
         "monitor panel levels"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "black tank still reads full after emptying"
@@ -4407,6 +4740,10 @@
         "blocked",
         "not draining",
         "backed up"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "water standing in the sink or shower",
@@ -4499,6 +4836,11 @@
         "spill",
         "dripping"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "water pooling under the RV",
         "drip from a hose connection"
@@ -4572,6 +4914,10 @@
         "refrigerator",
         "freezer",
         "cooling"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "fridge not cold",
@@ -4701,6 +5047,10 @@
         "12v fridge",
         "absorption fridge"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "If it runs on propane, set it to PROPANE. If it is 12 volt, charge the batteries more often.",
       "steps": [
@@ -4797,6 +5147,11 @@
         "fridge warm",
         "fridge not cooling"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "fridge is not cold enough"
       ],
@@ -4860,6 +5215,11 @@
         "iced fridge",
         "frozen chamber"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "ice build-up in the fridge air circulation chamber"
       ],
@@ -4920,6 +5280,11 @@
         "burner",
         "hob",
         "cooking"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure",
+        "prohibition"
       ],
       "symptoms": [
         "burner will not light"
@@ -5067,6 +5432,10 @@
         "baking",
         "pilot light"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Not every RV has an oven. Where fitted, it runs on propane with a pilot light.",
       "steps": [
@@ -5132,6 +5501,10 @@
         "microwave",
         "micro"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "microwave display not lit"
       ],
@@ -5194,6 +5567,10 @@
         "control board",
         "control panel",
         "tank levels"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Press and hold the labelled buttons to read approximate tank, battery and propane levels.",
@@ -5262,6 +5639,11 @@
         "slide out",
         "slide room",
         "slideout"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure",
+        "prohibition"
       ],
       "symptoms": [],
       "immediateAction": "Vehicle configurations vary. Position the driver's seat so it is fully clear of the slide and follow the instruction label beside the slide control.",
@@ -5371,6 +5753,11 @@
         "slide jam",
         "slide won't move"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [
         "slide stops before it is fully in or out",
         "no movement when the switch is pressed"
@@ -5426,6 +5813,11 @@
         "slide motor",
         "faulty motor control",
         "slide fault"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
       ],
       "symptoms": [
         "slide will not respond after the standard remedies"
@@ -5485,6 +5877,12 @@
       "aliases": [
         "slide stuck out",
         "cannot retract slide"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency",
+        "troubleshoot",
+        "procedure"
       ],
       "symptoms": [
         "slide will not retract and the RV cannot be moved safely"
@@ -5568,6 +5966,11 @@
         "jacks",
         "auto level",
         "stabilizers"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure",
+        "prohibition"
       ],
       "symptoms": [],
       "immediateAction": "Level on solid, near-level ground using auto-level only. Never lift the wheels off the ground.",
@@ -5676,6 +6079,16 @@
         "stuck",
         "mud"
       ],
+      "keywords": [
+        "rain on the playa",
+        "soft playa",
+        "mud",
+        "flooding"
+      ],
+      "intents": [
+        "procedure",
+        "troubleshoot"
+      ],
       "symptoms": [
         "ground softening under the jacks",
         "rain on the playa"
@@ -5735,6 +6148,17 @@
         "sunshade",
         "canopy"
       ],
+      "keywords": [
+        "awning at burning man",
+        "use the awning",
+        "open the awning",
+        "awning on the playa",
+        "shrink wrap the awning"
+      ],
+      "intents": [
+        "prohibition",
+        "prevention"
+      ],
       "symptoms": [],
       "immediateAction": "Do not open or use the awning on the playa.",
       "steps": [
@@ -5792,6 +6216,7 @@
       "configurationNotice": false,
       "related": [
         "awning-operation",
+        "playa-preparation-floor",
         "playa-dust-prevention",
         "cleaning-fee-prevention"
       ],
@@ -5811,6 +6236,15 @@
         "awning switch",
         "extend awning",
         "retract awning"
+      ],
+      "keywords": [
+        "awning operation",
+        "retract the awning",
+        "awning usage fee",
+        "extend the awning"
+      ],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "At Burning Man, do not use the awning at all. Away from the playa, the engine must be off.",
@@ -5888,6 +6322,10 @@
         "awning stuck",
         "awning dead"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [
         "no response from the awning switch"
       ],
@@ -5937,6 +6375,14 @@
         "compartment",
         "bins",
         "outside storage"
+      ],
+      "keywords": [
+        "storage compartments",
+        "exterior lockers"
+      ],
+      "intents": [
+        "procedure",
+        "prevention"
       ],
       "symptoms": [
         "compartment key feels tight"
@@ -6001,6 +6447,10 @@
         "step",
         "entrance switch"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "step stays extended when the door closes"
       ],
@@ -6048,6 +6498,11 @@
         "deadbolt",
         "entry door",
         "lock"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
       ],
       "symptoms": [
         "key feels tight in the lock",
@@ -6122,6 +6577,15 @@
         "blinds",
         "curtains",
         "shades"
+      ],
+      "keywords": [
+        "windows",
+        "roof vents",
+        "blinds"
+      ],
+      "intents": [
+        "procedure",
+        "prevention"
       ],
       "symptoms": [],
       "immediateAction": "Closed at all times on the playa — except for a gas, smoke or alarm emergency.",
@@ -6225,6 +6689,10 @@
         "locked out",
         "key ring"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Keep the keys on you every time you leave the RV.",
       "steps": [
@@ -6284,6 +6752,10 @@
         "low bridge",
         "overhead"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "At least 13 feet of clearance is required. Check the height sticker on the windshield.",
       "steps": [
@@ -6336,6 +6808,10 @@
         "roof damage",
         "hit overhead",
         "struck a bridge"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "impact with a height-restricted structure"
@@ -6396,6 +6872,10 @@
         "reversing",
         "backing up",
         "reverse camera"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Always use a spotter, even with a backup camera.",
@@ -6464,6 +6944,10 @@
         "overhang",
         "turning"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Turning right, watch your left mirror. Turning left, watch the right.",
       "steps": [
@@ -6520,6 +7004,10 @@
         "hill braking",
         "descending",
         "cruise control"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Engage Tow/Haul before descending and press-and-release the brake rather than riding it.",
@@ -6578,6 +7066,10 @@
         "parking brake",
         "handbrake",
         "park brake"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "parking brake warning light stays on"
@@ -6639,6 +7131,10 @@
         "puncture",
         "blowout",
         "tire"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "tire deflated",
@@ -6730,6 +7226,10 @@
         "collision",
         "injury"
       ],
+      "keywords": [],
+      "intents": [
+        "emergency"
+      ],
       "symptoms": [
         "impact with another vehicle or object",
         "injury"
@@ -6798,6 +7298,11 @@
         "broken down",
         "won't run",
         "stranded"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency",
+        "troubleshoot"
       ],
       "symptoms": [
         "mechanical failure rendering the RV inoperable"
@@ -6875,6 +7380,10 @@
         "dash warning",
         "red icon"
       ],
+      "keywords": [],
+      "intents": [
+        "emergency"
+      ],
       "symptoms": [
         "red icon illuminated",
         "gauge pointing to the red area"
@@ -6938,6 +7447,10 @@
         "brake light",
         "brake warning",
         "brake system"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "brake system warning light illuminated after releasing the parking brake"
@@ -7005,6 +7518,11 @@
         "oil light",
         "oil warning"
       ],
+      "keywords": [],
+      "intents": [
+        "emergency",
+        "procedure"
+      ],
       "symptoms": [
         "oil pressure warning light illuminated"
       ],
@@ -7065,6 +7583,12 @@
         "overheating",
         "coolant temperature",
         "engine hot"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency",
+        "troubleshoot",
+        "procedure"
       ],
       "symptoms": [
         "coolant temperature warning light illuminated",
@@ -7139,6 +7663,10 @@
         "registered technician",
         "technician warning"
       ],
+      "keywords": [],
+      "intents": [
+        "emergency"
+      ],
       "symptoms": [
         "requires registered technician icon illuminated"
       ],
@@ -7196,6 +7724,10 @@
         "airbag",
         "srs",
         "airbag light"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency"
       ],
       "symptoms": [
         "airbag icon flashing or staying on, or failing to illuminate at ignition"
@@ -7262,6 +7794,10 @@
         "limp home",
         "reduced power"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "electronic throttle control icon illuminated",
         "engine power reduced"
@@ -7319,6 +7855,10 @@
         "service engine soon",
         "check engine",
         "engine light"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "service engine soon icon illuminated after starting"
@@ -7386,6 +7926,10 @@
         "charging system",
         "yellow light"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "yellow icon illuminated"
       ],
@@ -7437,6 +7981,10 @@
         "tether anchor",
         "seatbelt"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Everyone must be belted whenever the RV is moving.",
       "steps": [
@@ -7487,6 +8035,14 @@
         "repairs responsibility",
         "terms and conditions",
         "unpaved"
+      ],
+      "keywords": [
+        "prohibited use",
+        "repair responsibility",
+        "not allowed"
+      ],
+      "intents": [
+        "prohibition"
       ],
       "symptoms": [],
       "immediateAction": "At Burning Man, all repairs are the guest's responsibility and no credits are issued for equipment failure.",
@@ -7554,6 +8110,10 @@
         "diesel",
         "fuel type"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Gasoline only. Never diesel. Minimum 87 octane unleaded.",
       "steps": [
@@ -7608,6 +8168,12 @@
         "diesel in petrol",
         "misfuel",
         "incorrect fuel"
+      ],
+      "keywords": [],
+      "intents": [
+        "emergency",
+        "troubleshoot",
+        "prohibition"
       ],
       "symptoms": [
         "wrong fuel dispensed into the tank"
@@ -7685,6 +8251,10 @@
         "gas station",
         "filling up"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Engine off, parking brake on, battery disconnect off, propane valve closed.",
       "steps": [
@@ -7748,6 +8318,10 @@
         "gas cap",
         "check fuel cap"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "check fuel cap light illuminated",
         "check engine light after refuelling"
@@ -7806,6 +8380,10 @@
         "oil level",
         "top up oil"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Check in the morning on level ground with the engine off and cold.",
       "steps": [
@@ -7858,6 +8436,10 @@
         "oil change",
         "7500 miles",
         "service due"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "odometer approaching the service interval"
@@ -7919,6 +8501,10 @@
         "radiator",
         "antifreeze"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "low coolant"
       ],
@@ -7974,6 +8560,10 @@
         "fluid leak",
         "coolant leak",
         "fuel leak"
+      ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot"
       ],
       "symptoms": [
         "coloured fluid pooling under the RV",
@@ -8052,6 +8642,10 @@
         "gas valve",
         "propane tank"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [
         "propane appliances not working"
       ],
@@ -8118,6 +8712,10 @@
         "tunnel",
         "propane valve travel"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "It is safe to drive with the propane system on, but close it for ferries and refuelling.",
       "steps": [
@@ -8172,6 +8770,10 @@
         "propane refill",
         "lpg refill",
         "fill propane"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [
         "propane running low"
@@ -8237,6 +8839,15 @@
         "refuelling fee",
         "fuel level"
       ],
+      "keywords": [
+        "fuel level for return",
+        "propane level for return",
+        "refuelling fee"
+      ],
+      "intents": [
+        "return",
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Return with the same fuel and propane levels you received at pickup, and fill close to the return branch.",
       "steps": [
@@ -8296,6 +8907,10 @@
         "authorisation",
         "reimbursement",
         "receipt"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Up to $100 you can proceed and claim it back. Over $100 needs authorisation first.",
@@ -8377,6 +8992,27 @@
         "sandstorm",
         "dust out"
       ],
+      "keywords": [
+        "dust storm",
+        "whiteout",
+        "white out",
+        "sandstorm",
+        "dust out",
+        "blowing dust",
+        "storm coming",
+        "storm is coming",
+        "low visibility",
+        "visibility is low",
+        "cannot see",
+        "heavy dust",
+        "what to close in a dust storm",
+        "dust storm procedure"
+      ],
+      "intents": [
+        "emergency",
+        "procedure",
+        "prohibition"
+      ],
       "symptoms": [
         "visibility dropping",
         "heavy blowing dust"
@@ -8430,9 +9066,90 @@
       "related": [
         "charging-vs-dust-storm",
         "playa-dust-prevention",
+        "playa-preparation-floor",
         "leveling-rain-soft-playa"
       ],
       "searchWeight": 1.6
+    },
+    {
+      "id": "playa-preparation-floor",
+      "title": "Preparing the RV — floor protection and covers",
+      "category": "Playa",
+      "riskLevel": "routine",
+      "priority": 1,
+      "questions": [
+        "How do I protect the floor?",
+        "What do I cover before the dust arrives?",
+        "What do I put on the floor at Burning Man?"
+      ],
+      "aliases": [
+        "floor protection",
+        "brown paper",
+        "cover the floor",
+        "playa preparation",
+        "floor covering"
+      ],
+      "keywords": [
+        "floor protection",
+        "protect the floor",
+        "cover the floor",
+        "brown paper",
+        "thick brown paper",
+        "home depot",
+        "hardware store",
+        "blue painters tape",
+        "painters tape",
+        "blue tape",
+        "cover with sheets",
+        "cover window screens",
+        "window screens",
+        "shrink wrap the awning",
+        "playa prep",
+        "prepare the rv for dust"
+      ],
+      "intents": [
+        "prevention",
+        "procedure"
+      ],
+      "symptoms": [],
+      "immediateAction": "Cover the floor with thick brown paper from Home Depot, secured with BLUE painter's tape only, and cover everything else with sheets.",
+      "steps": [
+        "Cover everything inside the RV with sheets.",
+        "Use thick brown paper, available at Home Depot, to cover the floor.",
+        "Secure the paper with BLUE painter's tape only. Do not use any other kind of tape.",
+        "Cover the window screens — playa dust is nearly impossible to remove from them.",
+        "Wrap the awning ends with shrink-wrap to keep dust out. The awning itself is never opened on the playa."
+      ],
+      "burningManOverride": [
+        "Use thick brown paper (available at Home Depot) to cover the floor, secured with BLUE painter's tape (do not use any other kind of tape!).",
+        "Cover everything inside the RV with sheets.",
+        "Cover window screens — Playa dust is nearly impossible to remove from them.",
+        "Never open or use the awning. Wrap the ends with shrink-wrap to keep dust out."
+      ],
+      "configurationVariants": [],
+      "doNot": [
+        "Do not use any kind of tape other than blue painter's tape.",
+        "Do not leave the window screens uncovered."
+      ],
+      "escalation": null,
+      "sources": [
+        {
+          "document": "Burning Man 2026 RV Rental Guide",
+          "page": 4,
+          "section": "Tips from Fellow Burning Man Travelers",
+          "priority": 1
+        }
+      ],
+      "playaOnly": true,
+      "configurationNotice": false,
+      "related": [
+        "playa-dust-prevention",
+        "stickers-tape",
+        "playa-dust-cleaning",
+        "awning-burning-man",
+        "cleaning-fee-prevention"
+      ],
+      "searchWeight": 1.4
     },
     {
       "id": "playa-dust-prevention",
@@ -8442,27 +9159,40 @@
       "priority": 1,
       "questions": [
         "How do I keep dust out of the RV?",
-        "How do I protect the RV from playa dust?",
+        "Do I keep the windows closed on the playa?",
         "Dust prevention"
       ],
       "aliases": [
         "dust prevention",
-        "protect from dust",
-        "cover interior",
+        "keep dust out",
+        "seal the rv",
         "playa dust"
+      ],
+      "keywords": [
+        "keep dust out",
+        "stop dust getting in",
+        "windows closed",
+        "roof vents closed",
+        "entry door",
+        "exterior compartments",
+        "sealed up",
+        "dust prevention",
+        "playa dust"
+      ],
+      "intents": [
+        "prevention",
+        "procedure"
       ],
       "symptoms": [
         "dust coating the interior"
       ],
-      "immediateAction": "Cover everything, seal up, and only open the door to enter or exit.",
+      "immediateAction": "Keep windows, roof vents and compartments closed, and only open the entry door to go in or out.",
       "steps": [
-        "Cover everything inside the RV with sheets.",
-        "Use thick brown paper to cover the floor, secured with BLUE painter's tape.",
-        "Keep windows and roof vents closed at all times.",
+        "Keep windows and roof vents closed at all times during normal playa conditions.",
         "Only open the entry door when entering or exiting, to prevent dust from coating the interior.",
-        "Cover the window screens — playa dust is nearly impossible to remove from them.",
+        "Keep all exterior compartment doors closed.",
         "Never open or use the awning. Wrap the ends with shrink-wrap to keep dust out.",
-        "Keep all exterior compartment doors closed."
+        "Cover the floor and interior first — see the preparation answer for the brown paper and blue painter’s tape method."
       ],
       "burningManOverride": [
         "Playa dust is extremely fine and pervasive; it behaves differently to regular dirt.",
@@ -8515,6 +9245,20 @@
         "cleaning playa",
         "wipe down"
       ],
+      "keywords": [
+        "clean playa dust",
+        "vinegar wash",
+        "vinegar",
+        "how to clean the dust",
+        "cleaning products",
+        "water inside the rv",
+        "wipe down",
+        "mud smear"
+      ],
+      "intents": [
+        "cleaning",
+        "procedure"
+      ],
       "symptoms": [
         "dust smearing into mud when wiped"
       ],
@@ -8547,6 +9291,7 @@
       "configurationNotice": false,
       "related": [
         "cleaning-fee-prevention",
+        "playa-preparation-floor",
         "playa-dust-prevention",
         "prepaid-cleaning"
       ],
@@ -8570,13 +9315,28 @@
         "500 fee",
         "2000 fee"
       ],
+      "keywords": [
+        "avoid a cleaning fee",
+        "cleaning fee",
+        "cleaning charge",
+        "avoid the fee",
+        "500 fee",
+        "2000 fee",
+        "excessively dirty",
+        "return clean"
+      ],
+      "intents": [
+        "prevention",
+        "cleaning",
+        "return"
+      ],
       "symptoms": [],
-      "immediateAction": "Return it in the same clean condition inside and out. The minimum fee is $500 if you do not.",
+      "immediateAction": "Cover up before the dust arrives, clean the playa dust with a vinegar wash, and take your trash away on the return trip. The minimum fee if you do not is $500.",
       "steps": [
+        "Prevent rather than clean: cover the floor and interior, keep the RV sealed, and clean as you go.",
+        "Clean the playa dust using a vinegar wash, not water or standard cleaning products.",
         "The RV must be returned in the same clean condition as it was delivered, both inside and out.",
         "This includes the awning, outer storage compartments, undercarriage and generator.",
-        "Clean the playa dust using a vinegar wash, not water or standard products.",
-        "Prevention is far cheaper than cleaning: cover surfaces, keep the RV sealed, and clean as you go.",
         "Remove all garbage and dispose of it on the return trip, not at the branch."
       ],
       "burningManOverride": [
@@ -8619,6 +9379,7 @@
       "playaOnly": true,
       "configurationNotice": false,
       "related": [
+        "playa-preparation-floor",
         "playa-dust-cleaning",
         "prepaid-cleaning",
         "trash-disposal",
@@ -8640,6 +9401,15 @@
         "prepaid cleaning",
         "1500 cleaning",
         "cleaning package"
+      ],
+      "keywords": [
+        "prepaid cleaning",
+        "prepay cleaning",
+        "1500 cleaning fee"
+      ],
+      "intents": [
+        "cleaning",
+        "return"
       ],
       "symptoms": [],
       "immediateAction": "You may prepay $1,500 for detailed cleaning. It does not include trash removal.",
@@ -8686,6 +9456,17 @@
         "garbage",
         "rubbish",
         "recycling"
+      ],
+      "keywords": [
+        "trash disposal",
+        "dispose of trash",
+        "garbage",
+        "trash at the branch"
+      ],
+      "intents": [
+        "return",
+        "prohibition",
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Dispose of trash during your return trip. Do not bring it to the return branch.",
@@ -8749,6 +9530,11 @@
         "moop",
         "pack it out"
       ],
+      "keywords": [],
+      "intents": [
+        "troubleshoot",
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Pack it in, pack it out. Leave nothing behind at Black Rock City.",
       "steps": [
@@ -8811,7 +9597,20 @@
         "stickers",
         "tape",
         "decorations",
-        "painters tape"
+        "painters tape",
+        "blue painters tape"
+      ],
+      "keywords": [
+        "blue painters tape",
+        "painters tape",
+        "blue tape",
+        "what tape can i use",
+        "stickers",
+        "decorations"
+      ],
+      "intents": [
+        "prohibition",
+        "prevention"
       ],
       "symptoms": [],
       "immediateAction": "Blue painter's tape only. Nothing that is not easily removable.",
@@ -8847,6 +9646,7 @@
       "playaOnly": true,
       "configurationNotice": false,
       "related": [
+        "playa-preparation-floor",
         "playa-dust-prevention",
         "cleaning-fee-prevention"
       ],
@@ -8868,6 +9668,10 @@
         "fees",
         "1000 surcharge",
         "burning man fee"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "A $1,000 non-refundable surcharge applies to any booking travelling to Burning Man.",
@@ -8943,6 +9747,15 @@
         "reno office",
         "service at burning man"
       ],
+      "keywords": [
+        "on road care",
+        "get help",
+        "support at burning man",
+        "service inside black rock city"
+      ],
+      "intents": [
+        "troubleshoot"
+      ],
       "symptoms": [],
       "immediateAction": "El Monte cannot provide on-site service inside Black Rock City. Phone support is operational guidance only.",
       "steps": [
@@ -8990,6 +9803,13 @@
         "left behind",
         "lost property",
         "forgotten items"
+      ],
+      "keywords": [
+        "left something behind",
+        "lost property"
+      ],
+      "intents": [
+        "return"
       ],
       "symptoms": [],
       "immediateAction": "Anything left behind is treated as abandoned and disposed of immediately.",
@@ -9040,6 +9860,14 @@
         "late fee",
         "drop off time",
         "time slot"
+      ],
+      "keywords": [
+        "return time slot",
+        "late return",
+        "late fee"
+      ],
+      "intents": [
+        "return"
       ],
       "symptoms": [],
       "immediateAction": "Return within the 30-minute slot you selected at Self Check-in.",
@@ -9113,6 +9941,17 @@
         "clean before return",
         "broom clean"
       ],
+      "keywords": [
+        "clean before return",
+        "broom clean",
+        "mop the floor",
+        "pre drop off cleaning"
+      ],
+      "intents": [
+        "cleaning",
+        "return",
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Same clean condition as delivery, inside and out. Use a vinegar wash for playa dust.",
       "steps": [
@@ -9174,6 +10013,15 @@
         "drop off checklist",
         "final return inspection",
         "checkout list"
+      ],
+      "keywords": [
+        "return checklist",
+        "drop off checklist",
+        "final return inspection"
+      ],
+      "intents": [
+        "checklist",
+        "return"
       ],
       "symptoms": [],
       "immediateAction": "Trash out, tanks drained, fuel and propane restored, playa dust cleaned, back within your slot.",
@@ -9251,6 +10099,14 @@
         "secure the coach",
         "walk around"
       ],
+      "keywords": [
+        "before moving the rv",
+        "before driving off"
+      ],
+      "intents": [
+        "checklist",
+        "procedure"
+      ],
       "symptoms": [],
       "immediateAction": "Slide in, jacks up, awning rolled, step retracted, everything closed and latched.",
       "steps": [
@@ -9324,6 +10180,17 @@
         "morning check",
         "evening check"
       ],
+      "keywords": [
+        "daily checks",
+        "daily checklist",
+        "what to check each day",
+        "morning check",
+        "evening check"
+      ],
+      "intents": [
+        "daily-routine",
+        "checklist"
+      ],
       "symptoms": [],
       "immediateAction": "Charge, check levels, check the generator oil, and keep the RV sealed against dust.",
       "steps": [
@@ -9374,7 +10241,8 @@
       "related": [
         "coach-battery-charging",
         "generator-oil",
-        "playa-dust-prevention"
+        "playa-dust-prevention",
+        "dust-storm-procedure"
       ],
       "searchWeight": 1.1
     },
@@ -9394,6 +10262,14 @@
         "collection",
         "handover",
         "equipment list"
+      ],
+      "keywords": [
+        "pickup inspection",
+        "collection checks"
+      ],
+      "intents": [
+        "checklist",
+        "procedure"
       ],
       "symptoms": [],
       "immediateAction": "Confirm the supplied equipment, note your fuel and propane levels, and record which configurations your RV has.",
@@ -9464,6 +10340,11 @@
         "pets",
         "pet cleaning"
       ],
+      "keywords": [],
+      "intents": [
+        "procedure",
+        "return"
+      ],
       "symptoms": [],
       "immediateAction": "The RVs are smoke free. A minimum $250 cleaning charge applies if you smoke or vape.",
       "steps": [
@@ -9507,6 +10388,11 @@
         "campsite rules",
         "security",
         "valuables"
+      ],
+      "keywords": [],
+      "intents": [
+        "procedure",
+        "return"
       ],
       "symptoms": [],
       "immediateAction": "Be a good neighbour, and take valuables and keys with you.",

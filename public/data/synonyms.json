@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "note": "Bidirectional synonym groups. The loader expands every group into a symmetric map, so authoring order does not matter.",
+  "note": "Bidirectional synonym groups. The loader expands every group into a symmetric map, so authoring order does not matter. Single-word entries are the only ones reachable by token expansion, so avoid putting a very common single word (for example 'playa') in a group whose other members are broad topic names — it makes every record on that topic match every query containing that word.",
   "groups": [
     ["generator", "genset", "onboard power", "gen"],
     ["coach battery", "house battery", "coach batteries", "house batteries", "rv battery"],
@@ -13,6 +13,11 @@
     ["ac", "a/c", "air conditioner", "air conditioning", "aircon", "roof air"],
     ["breaker", "circuit breaker", "trip", "tripped"],
     ["gfci", "gfi", "ground fault"],
+    ["outlet", "socket", "receptacle", "wall socket", "power outlet", "power point"],
+    ["painters tape", "blue tape", "blue painters tape"],
+    ["floor protection", "floor covering", "protect the floor", "cover the floor"],
+    ["home depot", "hardware store"],
+    ["whiteout conditions", "low visibility", "cannot see", "poor visibility"],
     ["playa dust", "dust", "alkaline dust", "moon dust"],
     ["dump", "empty tanks", "pump tanks", "waste service", "sani dump", "dump station", "drain tanks"],
     ["monitor panel", "control panel", "control board", "main panel"],
@@ -28,7 +33,7 @@
     ["one-ply", "1 ply", "one ply", "single ply", "toilet paper", "tp"],
     ["vinegar wash", "clean dust", "cleaning", "wipe down"],
     ["dust storm", "whiteout", "white out", "sandstorm", "dust out"],
-    ["black rock city", "brc", "burning man", "playa", "burn"],
+    ["black rock city", "brc", "burning man", "the burn"],
     ["fuel", "gas", "gasoline", "petrol", "unleaded"],
     ["diesel", "wrong fuel", "incorrect fuel", "misfuel", "misfuelled", "misfueled"],
     ["flat tire", "flat tyre", "puncture", "blowout"],

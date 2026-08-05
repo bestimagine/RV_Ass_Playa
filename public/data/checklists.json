@@ -1,5 +1,5 @@
 {
-  "checklistsVersion": "1.0.0",
+  "checklistsVersion": "1.1.0",
   "checklists": [
     {
       "id": "pickup-inspection",
@@ -10,39 +10,215 @@
         {
           "title": "Outside",
           "items": [
-            { "text": "Complete an outside tour of the RV and confirm all hook-ups are detached and properly stowed in their compartments.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Walk Around Tour", "priority": 3 }] },
-            { "text": "Confirm all external compartments are locked and latched.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Walk Around Tour", "priority": 3 }] },
-            { "text": "Note the location of the generator exhaust pipe on the driver's side.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Walk Around Tour (caution)", "priority": 3 }] },
-            { "text": "Check the height sticker on the windshield and note your RV's height.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Height Sticker and Clearance", "priority": 2 }] }
+            {
+              "text": "Complete an outside tour of the RV and confirm all hook-ups are detached and properly stowed in their compartments.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Walk Around Tour",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm all external compartments are locked and latched.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Walk Around Tour",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Note the location of the generator exhaust pipe on the driver's side.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Walk Around Tour (caution)",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Check the height sticker on the windshield and note your RV's height.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Height Sticker and Clearance",
+                  "priority": 2
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Supplied equipment",
           "items": [
-            { "text": "Rear storage: camping table, power cord, electrical adapter, water hose, water pressure regulator, coax cable, broom, dustpan and brush, two cleaning rags, leveling ramps and spare wheel.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Rear Storage and Provided Equipment", "priority": 2 }] },
-            { "text": "Smaller items are usually rolled up with the hose or cord — look carefully to verify it all.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Rear Storage and Provided Equipment", "priority": 2 }] },
-            { "text": "Sewer hose is stored in the front side compartment.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dumping the Waste Tanks", "priority": 2 }] },
-            { "text": "Locate the fire extinguisher, usually near the entry door step well.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 32, "section": "Fire Extinguisher", "priority": 3 }] },
-            { "text": "Locate the LPG / carbon-monoxide detector — its position varies by model and it is usually close to the floor.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 32, "section": "Carbon Monoxide (CO) Detector", "priority": 3 }] },
-            { "text": "Locate the emergency exit window, marked EXIT on one of the rear windows.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 32, "section": "Emergency Exit", "priority": 3 }] }
+            {
+              "text": "Rear storage: camping table, power cord, electrical adapter, water hose, water pressure regulator, coax cable, broom, dustpan and brush, two cleaning rags, leveling ramps and spare wheel.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Rear Storage and Provided Equipment",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Smaller items are usually rolled up with the hose or cord — look carefully to verify it all.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Rear Storage and Provided Equipment",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Sewer hose is stored in the front side compartment.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dumping the Waste Tanks",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Locate the fire extinguisher, usually near the entry door step well.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 32,
+                  "section": "Fire Extinguisher",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Locate the LPG / carbon-monoxide detector — its position varies by model and it is usually close to the floor.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 32,
+                  "section": "Carbon Monoxide (CO) Detector",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Locate the emergency exit window, marked EXIT on one of the rear windows.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 32,
+                  "section": "Emergency Exit",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Keys and paperwork",
           "items": [
-            { "text": "Confirm you have one complete set of keys: ignition/lock box, outside storage bin doors, coach door and engine compartment.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Keys", "priority": 3 }] },
-            { "text": "Note the On Road Care phone number printed on the key tag and save it in My RV settings.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 3, "section": "Support & Resources", "priority": 1 }] },
-            { "text": "Review the paperwork in the glove compartment, including registration, insurance details and the Collision Report forms.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 33, "section": "Automobile Accident", "priority": 3 }] }
+            {
+              "text": "Confirm you have one complete set of keys: ignition/lock box, outside storage bin doors, coach door and engine compartment.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Keys",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Note the On Road Care phone number printed on the key tag and save it in My RV settings.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 3,
+                  "section": "Support & Resources",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Review the paperwork in the glove compartment, including registration, insurance details and the Collision Report forms.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 33,
+                  "section": "Automobile Accident",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Levels and configuration",
           "items": [
-            { "text": "Note the fuel level. You must return the RV with the same fuel level you received at pickup.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Fuel Reminder", "priority": 3 }] },
-            { "text": "Note the propane level. The tank is full at pickup and must be refilled to the same level before return.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Propane Tank", "priority": 3 }] },
-            { "text": "Confirm the waste tanks are empty and the freshwater tank is full.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Water Management", "priority": 1 }] },
-            { "text": "Ask which configurations your RV has: shore power service, number of A/C units, water heater type, refrigerator type, generator start locations, leveling system, and whether an awning and oven are fitted. Record them in My RV settings.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 22, "section": "Monitor Panel", "priority": 3 }] },
-            { "text": "Read the instruction sticker beside the slide switch and note the correct driver's seat position for your RV.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 23, "section": "Slide Operation", "priority": 3 }] }
+            {
+              "text": "Note the fuel level. You must return the RV with the same fuel level you received at pickup.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Fuel Reminder",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Note the propane level. The tank is full at pickup and must be refilled to the same level before return.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Propane Tank",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm the waste tanks are empty and the freshwater tank is full.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Water Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Ask which configurations your RV has: shore power service, number of A/C units, water heater type, refrigerator type, generator start locations, leveling system, and whether an awning and oven are fitted. Record them in My RV settings.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 22,
+                  "section": "Monitor Panel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Read the instruction sticker beside the slide switch and note the correct driver's seat position for your RV.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 23,
+                  "section": "Slide Operation",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         }
       ]
@@ -56,30 +232,170 @@
         {
           "title": "Park and level",
           "items": [
-            { "text": "Level on solid, near-level ground using the auto-leveling feature only. Never lift the wheels off the ground.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Awning and Leveling System", "priority": 1 }] },
-            { "text": "Make sure your RV stays accessible to service trucks — hoses cannot reach beyond 30 feet.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Access for Service Trucks", "priority": 1 }] },
-            { "text": "Do not open or use the awning.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] }
+            {
+              "text": "Level on solid, near-level ground using the auto-leveling feature only. Never lift the wheels off the ground.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Awning and Leveling System",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Make sure your RV stays accessible to service trucks — hoses cannot reach beyond 30 feet.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Access for Service Trucks",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Do not open or use the awning.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Dust protection",
           "items": [
-            { "text": "Cover everything inside the RV with sheets.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Cover the floor with thick brown paper secured with BLUE painter's tape only.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Cover the window screens — playa dust is nearly impossible to remove from them.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Wrap the awning ends with shrink-wrap to keep dust out.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Close all windows and roof vents and keep them closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Keep all exterior compartment doors closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] }
+            {
+              "text": "Cover everything inside the RV with sheets.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Cover the floor with thick brown paper, available at Home Depot, secured with BLUE painter's tape only.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Cover the window screens — playa dust is nearly impossible to remove from them.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Wrap the awning ends with shrink-wrap to keep dust out.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Close all windows and roof vents and keep them closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Keep all exterior compartment doors closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Power and climate",
           "items": [
-            { "text": "Confirm the coach battery switch is ON. It must always be ON or the batteries do not get charged.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Set the A/C thermostat to 79 degrees and close blinds, curtains and shades.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "If the refrigerator runs on propane, set it to PROPANE.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Plan to run only one A/C unit at a time on generator power.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Set up your cooler or ice chest for drinks and water.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] }
+            {
+              "text": "Confirm the coach battery switch is ON. It must always be ON or the batteries do not get charged.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Set the A/C thermostat to 79 degrees and close blinds, curtains and shades.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "If the refrigerator runs on propane, set it to PROPANE.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Plan to run only one A/C unit at a time on generator power.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Set up your cooler or ice chest for drinks and water.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         }
       ]
@@ -93,28 +409,147 @@
         {
           "title": "Levels",
           "items": [
-            { "text": "Check the engine oil on level ground, engine off and cold. Morning before driving is the best time.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 13, "section": "Oil", "priority": 3 }] },
-            { "text": "Check the generator oil if it has run eight hours since the last check.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Check the fuel gauge. The generator will not run below a quarter tank.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Check the coach battery reading on the monitor panel with the engine, generator and shore power off.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 22, "section": "Battery Level", "priority": 3 }] },
-            { "text": "Check the fresh, grey and black tank levels on the monitor panel.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 22, "section": "Monitor Panel", "priority": 3 }] }
+            {
+              "text": "Check the engine oil on level ground, engine off and cold. Morning before driving is the best time.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 13,
+                  "section": "Oil",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Check the generator oil if it has run eight hours since the last check.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Check the fuel gauge. The generator will not run below a quarter tank.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Check the coach battery reading on the monitor panel with the engine, generator and shore power off.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 22,
+                  "section": "Battery Level",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Check the fresh, grey and black tank levels on the monitor panel.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 22,
+                  "section": "Monitor Panel",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Charge",
           "items": [
-            { "text": "Run the engine for one hour, as one of at least three sessions across the day — or run the generator for eight hours.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "While the generator is running, use the power-heavy appliances and charge phones and laptops.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dry Camping Battery Maintenance", "priority": 2 }] },
-            { "text": "Do not run the generator or engine if there is a dust storm. Wait for it to pass.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] }
+            {
+              "text": "Run the engine for one hour, as one of at least three sessions across the day — or run the generator for eight hours.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "While the generator is running, use the power-heavy appliances and charge phones and laptops.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dry Camping Battery Maintenance",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Do not run the generator or engine if there is a dust storm. Wait for it to pass.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Seal up",
           "items": [
-            { "text": "Confirm windows and roof vents are closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Confirm exterior compartment doors are closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Confirm the awning is closed and has not been used.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Check for any leaks under the RV. You are responsible for preventing and addressing any leaks.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] }
+            {
+              "text": "Confirm windows and roof vents are closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Confirm exterior compartment doors are closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Confirm the awning is closed and has not been used.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Check for any leaks under the RV. You are responsible for preventing and addressing any leaks.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         }
       ]
@@ -128,13 +563,81 @@
         {
           "title": "Before sleeping",
           "items": [
-            { "text": "Run the engine for one hour before going to sleep. The guide singles this session out specifically.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Confirm the coach battery switch is still ON.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Turn the water pump off when water is not required.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Water Management — Freshwater Use", "priority": 1 }] },
-            { "text": "Do not run the generator at night or during posted quiet hours. Burning Man recommends using generators sparingly out of consideration for your neighbours.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Confirm windows, roof vents and exterior compartments are closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Keep the deadbolt locked.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Entry Door and Deadbolt", "priority": 2 }] },
-            { "text": "Turn off the water heater when you are finished with it.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Tankless Water Heater", "priority": 2 }] }
+            {
+              "text": "Run the engine for one hour before going to sleep. The guide singles this session out specifically.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Confirm the coach battery switch is still ON.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Turn the water pump off when water is not required.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Water Management — Freshwater Use",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Do not run the generator at night or during posted quiet hours. Burning Man recommends using generators sparingly out of consideration for your neighbours.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Confirm windows, roof vents and exterior compartments are closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Keep the deadbolt locked.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Entry Door and Deadbolt",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Turn off the water heater when you are finished with it.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Tankless Water Heater",
+                  "priority": 2
+                }
+              ]
+            }
           ]
         }
       ]
@@ -148,21 +651,120 @@
         {
           "title": "Checks",
           "items": [
-            { "text": "Check the generator oil level — daily, or after every eight hours of operation.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 24, "section": "Generator Checks", "priority": 3 }] },
-            { "text": "Confirm the fuel tank is above a quarter, or the generator will not start.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 24, "section": "Generator Checks", "priority": 3 }] },
-            { "text": "Confirm the coach battery is charged. The generator needs a well charged coach battery to start.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 24, "section": "Operating the Generator", "priority": 3 }] },
-            { "text": "Confirm there is no dust storm. Do not run the generator or engine during a dust storm.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Turn off the roof air conditioning, microwave and anything plugged into the outlets.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 24, "section": "Operating the Generator", "priority": 3 }] },
-            { "text": "Close the windows. Generator exhaust could trigger the detectors.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Safety Systems", "priority": 3 }] }
+            {
+              "text": "Check the generator oil level — daily, or after every eight hours of operation.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 24,
+                  "section": "Generator Checks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm the fuel tank is above a quarter, or the generator will not start.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 24,
+                  "section": "Generator Checks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm the coach battery is charged. The generator needs a well charged coach battery to start.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 24,
+                  "section": "Operating the Generator",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm there is no dust storm. Do not run the generator or engine during a dust storm.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Turn off the roof air conditioning, microwave and anything plugged into the outlets.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 24,
+                  "section": "Operating the Generator",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close the windows. Generator exhaust could trigger the detectors.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Safety Systems",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Running",
           "items": [
-            { "text": "Allow the generator 3 to 4 minutes to warm up before using any appliances.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 24, "section": "Generator", "priority": 3 }] },
-            { "text": "Run only one A/C unit at a time to avoid tripping the generator breaker.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Use this window for the microwave, device charging and any other 120-volt loads.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dry Camping Battery Maintenance", "priority": 2 }] },
-            { "text": "Do not run the generator at night or during posted quiet hours.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Campsite Etiquette", "priority": 3 }] }
+            {
+              "text": "Allow the generator 3 to 4 minutes to warm up before using any appliances.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 24,
+                  "section": "Generator",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Run only one A/C unit at a time to avoid tripping the generator breaker.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Use this window for the microwave, device charging and any other 120-volt loads.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dry Camping Battery Maintenance",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Do not run the generator at night or during posted quiet hours.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Campsite Etiquette",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         }
       ]
@@ -176,30 +778,120 @@
         {
           "title": "Shut down",
           "items": [
-            { "text": "Do not run the generator or engine during a dust storm. Dust can clog the air filter and damage the engine or generator.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] }
+            {
+              "text": "Do not run the generator or engine during a dust storm. Dust can clog the air filter and damage the engine or generator.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Seal up",
           "items": [
-            { "text": "Keep windows and roof vents closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Only open the entry door when entering or exiting.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Keep all exterior compartment doors closed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Confirm the awning is closed. It is not to be used on the playa at all.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] }
+            {
+              "text": "Keep windows and roof vents closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Only open the entry door when entering or exiting.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Keep all exterior compartment doors closed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Confirm the awning is closed. It is not to be used on the playa at all.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Conserve power while you wait",
           "items": [
-            { "text": "Limit the opening and closing of the refrigerator doors.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Use the cooler or ice chest for drinks and water.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] },
-            { "text": "Resume the normal charging schedule once the storm has passed.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 1, "section": "Power Management", "priority": 1 }] }
+            {
+              "text": "Limit the opening and closing of the refrigerator doors.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Use the cooler or ice chest for drinks and water.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Resume the normal charging schedule once the storm has passed.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 1,
+                  "section": "Power Management",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Safety exception",
           "items": [
-            { "text": "If you smell propane, a detector alarms, or smoke builds up, open the windows, roof vents and entry door immediately. Emergency ventilation always takes precedence over the dust guidance.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Safety Systems", "priority": 3 }] }
+            {
+              "text": "If you smell propane, a detector alarms, or smoke builds up, open the windows, roof vents and entry door immediately. Emergency ventilation always takes precedence over the dust guidance.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Safety Systems",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         }
       ]
@@ -213,24 +905,103 @@
         {
           "title": "Access",
           "items": [
-            { "text": "Make sure your RV is accessible. Service hoses cannot reach beyond 30 feet.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Access for Service Trucks", "priority": 1 }] },
-            { "text": "Clear bikes, shade structures and camp furniture from the route to your sewer outlet.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Access for Service Trucks", "priority": 1 }] }
+            {
+              "text": "Make sure your RV is accessible. Service hoses cannot reach beyond 30 feet.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Access for Service Trucks",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Clear bikes, shade structures and camp furniture from the route to your sewer outlet.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Access for Service Trucks",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Choosing a truck",
           "items": [
-            { "text": "Look for trucks marked 'RV servicing'. Many trucks are for infrastructure only, so check the signage.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] },
-            { "text": "The only vendor authorised to accept cash for pumping is United Site Services.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] },
-            { "text": "Pumping services do not include potable water refills. Look for separate potable water trucks.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] }
+            {
+              "text": "Look for trucks marked 'RV servicing'. Many trucks are for infrastructure only, so check the signage.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The only vendor authorised to accept cash for pumping is United Site Services.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Pumping services do not include potable water refills. Look for separate potable water trucks.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "At the outlet",
           "items": [
-            { "text": "Unlock and open the sewer outlet access before the truck arrives.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dumping the Waste Tanks", "priority": 2 }] },
-            { "text": "Add a toilet chemical pack after the black tank has been emptied.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Close and lock the exterior sewer outlet afterwards.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] }
+            {
+              "text": "Unlock and open the sewer outlet access before the truck arrives.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dumping the Waste Tanks",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Add a toilet chemical pack after the black tank has been emptied.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close and lock the exterior sewer outlet afterwards.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         }
       ]
@@ -244,44 +1015,271 @@
         {
           "title": "Inside",
           "items": [
-            { "text": "Close all roof vents and coach windows.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Close cabinet doors, drawers and counter extensions.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Properly secure the fridge and freezer doors.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Close the bathroom door.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Switch off the water heater, water pump, furnace, stove and generator.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Secure the TV and the bunk ladder.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Stow and secure all dishes, luggage and equipment. Lighter items higher, heavier items lower.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Raise the cab-over bed for extra headroom and visibility, if fitted.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Cab-Over Bed", "priority": 2 }] }
+            {
+              "text": "Close all roof vents and coach windows.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close cabinet doors, drawers and counter extensions.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Properly secure the fridge and freezer doors.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close the bathroom door.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Switch off the water heater, water pump, furnace, stove and generator.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Secure the TV and the bunk ladder.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Stow and secure all dishes, luggage and equipment. Lighter items higher, heavier items lower.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Raise the cab-over bed for extra headroom and visibility, if fitted.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Cab-Over Bed",
+                  "priority": 2
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Retract",
           "items": [
-            { "text": "Retract the slide-outs. Never drive with a slide in the OUT position.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 23, "section": "Slide Operation", "priority": 3 }] },
-            { "text": "Retract the awning and confirm it is fully rolled up.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 19, "section": "Electric Awning", "priority": 3 }] },
-            { "text": "Retract the leveling system, then step outside and visually confirm all jacks are fully retracted.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Automatic Leveling System", "priority": 2 }] },
-            { "text": "Confirm the entry step has retracted. Listen for it moving and double-check before driving off.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Awning and Entry Step Switches", "priority": 2 }] }
+            {
+              "text": "Retract the slide-outs. Never drive with a slide in the OUT position.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 23,
+                  "section": "Slide Operation",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Retract the awning and confirm it is fully rolled up.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 19,
+                  "section": "Electric Awning",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Retract the leveling system, then step outside and visually confirm all jacks are fully retracted.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Automatic Leveling System",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Confirm the entry step has retracted. Listen for it moving and double-check before driving off.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Awning and Entry Step Switches",
+                  "priority": 2
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Outside",
           "items": [
-            { "text": "Disconnect the power cord and fresh water hose from the campsite outlets and stow them.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Outside Check List", "priority": 3 }] },
-            { "text": "Close and lock the exterior sewer outlet.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Lock and latch all compartment doors.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Outside Check List", "priority": 3 }] },
-            { "text": "Close the entry door and engage the deadbolt.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Check there is no evidence of fluid leaks under the RV.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Preparing to Depart the Campsite", "priority": 3 }] },
-            { "text": "Check for overhead clearance. At least 13 feet is required.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 11, "section": "Clearances", "priority": 3 }] },
-            { "text": "Perform a walk-around tour.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Walk Around Tour", "priority": 3 }] }
+            {
+              "text": "Disconnect the power cord and fresh water hose from the campsite outlets and stow them.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Outside Check List",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close and lock the exterior sewer outlet.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Lock and latch all compartment doors.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Outside Check List",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close the entry door and engage the deadbolt.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Check there is no evidence of fluid leaks under the RV.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Preparing to Depart the Campsite",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Check for overhead clearance. At least 13 feet is required.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 11,
+                  "section": "Clearances",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Perform a walk-around tour.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Walk Around Tour",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Driver",
           "items": [
-            { "text": "Adjust the seat, steering wheel and mirrors before starting the engine.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Inside Check List", "priority": 3 }] },
-            { "text": "Buckle up. All passengers must wear seat belts while the RV is moving.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 11, "section": "Seats & Seat Belts", "priority": 3 }] },
-            { "text": "Release the parking brake.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Inside Check List", "priority": 3 }] },
-            { "text": "Use a spotter when manoeuvring in tight spaces, parking lots and campgrounds.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 20, "section": "Inside Check List", "priority": 3 }] }
+            {
+              "text": "Adjust the seat, steering wheel and mirrors before starting the engine.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Inside Check List",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Buckle up. All passengers must wear seat belts while the RV is moving.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 11,
+                  "section": "Seats & Seat Belts",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Release the parking brake.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Inside Check List",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Use a spotter when manoeuvring in tight spaces, parking lots and campgrounds.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 20,
+                  "section": "Inside Check List",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         }
       ]
@@ -295,33 +1293,152 @@
         {
           "title": "Leave no trace",
           "items": [
-            { "text": "Pack it in, pack it out. Do not leave anything behind at Black Rock City.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Leave No Trace", "priority": 1 }] },
-            { "text": "Bag all trash, with separate bags for recyclables.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Leave No Trace", "priority": 1 }] },
-            { "text": "Check the ground around your camp for anything dropped or spilled.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Leave No Trace", "priority": 1 }] }
+            {
+              "text": "Pack it in, pack it out. Do not leave anything behind at Black Rock City.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Leave No Trace",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Bag all trash, with separate bags for recyclables.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Leave No Trace",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Check the ground around your camp for anything dropped or spilled.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Leave No Trace",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Tanks and water",
           "items": [
-            { "text": "Arrange a final pump-out with an RV servicing truck if your tanks are near full.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] },
-            { "text": "Never dump grey or black water on the playa on the way out.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] }
+            {
+              "text": "Arrange a final pump-out with an RV servicing truck if your tanks are near full.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Never dump grey or black water on the playa on the way out.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Secure the RV",
           "items": [
-            { "text": "Retract the jacks and confirm visually that they are fully up.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Automatic Leveling System", "priority": 2 }] },
-            { "text": "Retract the slide-outs and confirm the entry step is in.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Confirm windows, roof vents and all exterior compartments are closed and latched.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Do not drive if rain has softened the playa. The rental agreement prohibits driving in conditions you reasonably understand to be hazardous.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 3, "section": "Terms and Conditions Reminder", "priority": 1 }] }
+            {
+              "text": "Retract the jacks and confirm visually that they are fully up.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Automatic Leveling System",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Retract the slide-outs and confirm the entry step is in.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm windows, roof vents and all exterior compartments are closed and latched.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Do not drive if rain has softened the playa. The rental agreement prohibits driving in conditions you reasonably understand to be hazardous.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 3,
+                  "section": "Terms and Conditions Reminder",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "On the way out",
           "items": [
-            { "text": "Dispose of your trash during the return trip. Many communities along the route offer 24-hour recycling and trash disposal.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Trash Disposal", "priority": 1 }] },
-            { "text": "Do not bring your trash to the return branch — substantial disposal fees will apply.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Trash Disposal", "priority": 1 }] },
-            { "text": "Plan your playa dust cleaning stop before you reach the branch.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] }
+            {
+              "text": "Dispose of your trash during the return trip. Many communities along the route offer 24-hour recycling and trash disposal.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Trash Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Do not bring your trash to the return branch — substantial disposal fees will apply.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Trash Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Plan your playa dust cleaning stop before you reach the branch.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         }
       ]
@@ -335,29 +1452,159 @@
         {
           "title": "Method",
           "items": [
-            { "text": "Do not use standard cleaning products or water inside the RV — this will only smear the dust and create mud.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "Use a vinegar wash.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "Remove the sheets and floor paper carefully so the trapped dust leaves with them.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "Remove all blue painter's tape. Additional cleaning or repainting fees apply if removal is required.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 3, "section": "Terms and Conditions Reminder", "priority": 1 }] }
+            {
+              "text": "Do not use standard cleaning products or water inside the RV — this will only smear the dust and create mud.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Use a vinegar wash.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Remove the sheets and floor paper carefully so the trapped dust leaves with them.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Remove all blue painter's tape. Additional cleaning or repainting fees apply if removal is required.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 3,
+                  "section": "Terms and Conditions Reminder",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "What must be cleaned",
           "items": [
-            { "text": "The interior — appliances, bathroom, cupboards, all surfaces and the floor.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "The awning.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "The outer storage compartments.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "The undercarriage.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "The generator.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "The window screens, which are the hardest surface to clean.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Tips from Fellow Burning Man Travelers", "priority": 1 }] },
-            { "text": "The floor needs to be broom clean; it does not need to be mopped.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] }
+            {
+              "text": "The interior — appliances, bathroom, cupboards, all surfaces and the floor.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "The awning.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The outer storage compartments.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The undercarriage.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The generator.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The window screens, which are the hardest surface to clean.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Tips from Fellow Burning Man Travelers",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The floor needs to be broom clean; it does not need to be mopped.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Fees if you do not",
           "items": [
-            { "text": "A minimum cleaning fee of $500 applies if the vehicle is not returned in the exact same clean condition inside and outside as at pickup.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "A minimum fee of $2,000 applies if the vehicle is returned completely uncleaned, unless a $1,500 cleaning fee was prepaid.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] }
+            {
+              "text": "A minimum cleaning fee of $500 applies if the vehicle is not returned in the exact same clean condition inside and outside as at pickup.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "A minimum fee of $2,000 applies if the vehicle is returned completely uncleaned, unless a $1,500 cleaning fee was prepaid.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         }
       ]
@@ -371,33 +1618,149 @@
         {
           "title": "Before fuelling",
           "items": [
-            { "text": "Turn the engine off and apply the parking brake.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Fueling the RV", "priority": 3 }] },
-            { "text": "Turn the house battery / battery disconnect switch OFF.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Fuel Filler and Fueling Safety", "priority": 2 }] },
-            { "text": "Turn the generator off.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Fuel Filler and Fueling Safety", "priority": 2 }] },
-            { "text": "Close the propane gas shut-off valve.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Fueling the RV", "priority": 3 }] }
+            {
+              "text": "Turn the engine off and apply the parking brake.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Fueling the RV",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Turn the house battery / battery disconnect switch OFF.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Fuel Filler and Fueling Safety",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Turn the generator off.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Fuel Filler and Fueling Safety",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Close the propane gas shut-off valve.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Fueling the RV",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Fuelling",
           "items": [
-            { "text": "Use gasoline only, minimum 87 octane unleaded. Never use diesel.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Fuel Filler and Fueling Safety", "priority": 2 }] },
-            { "text": "Twist the gas cap a few full turns until it is tight.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Fuel Filler and Fueling Safety", "priority": 2 }] },
-            { "text": "Double-check the gas gauge before leaving the station.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Fuel & Propane Refueling", "priority": 1 }] }
+            {
+              "text": "Use gasoline only, minimum 87 octane unleaded. Never use diesel.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Fuel Filler and Fueling Safety",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Twist the gas cap a few full turns until it is tight.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Fuel Filler and Fueling Safety",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Double-check the gas gauge before leaving the station.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Fuel & Propane Refueling",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Propane",
           "items": [
-            { "text": "Refill propane at a service station, U-Haul location or campground that handles propane.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Propane Tank", "priority": 3 }] },
-            { "text": "Propane must be refilled before return. The refuelling fee is $6.50 per gallon.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Fuel & Propane Refueling", "priority": 1 }] }
+            {
+              "text": "Refill propane at a service station, U-Haul location or campground that handles propane.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Propane Tank",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Propane must be refilled before return. The refuelling fee is $6.50 per gallon.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Fuel & Propane Refueling",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "After fuelling",
           "items": [
-            { "text": "Turn the battery disconnect switch back ON.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Fueling the RV", "priority": 3 }] },
-            { "text": "Open the propane gas shut-off valve.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 12, "section": "Fueling the RV", "priority": 3 }] },
-            { "text": "For the return leg, fill up close to the return location — not 15 miles away. The gasoline refuelling fee is $10.00 per gallon.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Fuel & Propane Refueling", "priority": 1 }] }
+            {
+              "text": "Turn the battery disconnect switch back ON.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Fueling the RV",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Open the propane gas shut-off valve.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 12,
+                  "section": "Fueling the RV",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "For the return leg, fill up close to the return location — not 15 miles away. The gasoline refuelling fee is $10.00 per gallon.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Fuel & Propane Refueling",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         }
       ]
@@ -411,42 +1774,198 @@
         {
           "title": "At Burning Man",
           "items": [
-            { "text": "There are no RV dump stations in Black Rock City. Use a truck marked 'RV servicing'.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] },
-            { "text": "Never dump grey water or black water on the playa. Violators will be cited by BLM.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] },
-            { "text": "The only vendor authorised to accept cash for pumping is United Site Services.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 2, "section": "Black & Grey Water", "priority": 1 }] }
+            {
+              "text": "There are no RV dump stations in Black Rock City. Use a truck marked 'RV servicing'.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Never dump grey water or black water on the playa. Violators will be cited by BLM.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "The only vendor authorised to accept cash for pumping is United Site Services.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 2,
+                  "section": "Black & Grey Water",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Connecting the hose",
           "items": [
-            { "text": "Take the sewer hose from the storage compartment and remove the dust cap from the sewer outlet.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Attach the hose firmly to the outlet and twist to lock. Attach the elbow if not already connected.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dumping the Waste Tanks", "priority": 2 }] },
-            { "text": "Place the opposite end into the dump connection.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Save a few plastic shopping bags to use as makeshift gloves when handling the hose.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dumping the Waste Tanks", "priority": 2 }] }
+            {
+              "text": "Take the sewer hose from the storage compartment and remove the dust cap from the sewer outlet.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Attach the hose firmly to the outlet and twist to lock. Attach the elbow if not already connected.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dumping the Waste Tanks",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "Place the opposite end into the dump connection.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Save a few plastic shopping bags to use as makeshift gloves when handling the hose.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dumping the Waste Tanks",
+                  "priority": 2
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Draining — black first",
           "items": [
-            { "text": "Pull the BLACK handle first — the larger of the two, or the one marked BLACK.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Once the black waste has completely drained, flush the toilet with 1 to 2 gallons of fresh water to rinse the tank.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Close the BLACK valve.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] }
+            {
+              "text": "Pull the BLACK handle first — the larger of the two, or the one marked BLACK.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Once the black waste has completely drained, flush the toilet with 1 to 2 gallons of fresh water to rinse the tank.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close the BLACK valve.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Draining — grey second",
           "items": [
-            { "text": "Pull the GREY handle. This flushes out water from the sinks and shower and helps rinse the hose.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dumping the Waste Tanks", "priority": 2 }] },
-            { "text": "When the grey tank has drained, raise the hose at the RV end and work hand-over-hand towards the far end to drain it.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Close the GREY valve.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] }
+            {
+              "text": "Pull the GREY handle. This flushes out water from the sinks and shower and helps rinse the hose.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dumping the Waste Tanks",
+                  "priority": 2
+                }
+              ]
+            },
+            {
+              "text": "When the grey tank has drained, raise the hose at the RV end and work hand-over-hand towards the far end to drain it.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close the GREY valve.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Finishing",
           "items": [
-            { "text": "Detach and stow the sewer hose, and replace the cap on the outlet pipe securely.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Add one packet of toilet chemical to the toilet and flush. Repeat this every time you drain the tanks.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "It is normal if the tank sensors do not read fully empty. Build-up on the inside affects readings.", "sources": [{ "document": "El Monte Class A Walkthrough Transcript", "section": "Dumping the Waste Tanks", "priority": 2 }] }
+            {
+              "text": "Detach and stow the sewer hose, and replace the cap on the outlet pipe securely.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Add one packet of toilet chemical to the toilet and flush. Repeat this every time you drain the tanks.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "It is normal if the tank sensors do not read fully empty. Build-up on the inside affects readings.",
+              "sources": [
+                {
+                  "document": "El Monte Class A Walkthrough Transcript",
+                  "section": "Dumping the Waste Tanks",
+                  "priority": 2
+                }
+              ]
+            }
           ]
         }
       ]
@@ -460,66 +1979,366 @@
         {
           "title": "Trash",
           "items": [
-            { "text": "Dispose of all trash during the return trip. Many communities along the route from Black Rock City offer 24-hour recycling and trash disposal.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Trash Disposal", "priority": 1 }] },
-            { "text": "Do not bring your trash to the return branch — substantial disposal fees will apply.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Trash Disposal", "priority": 1 }] },
-            { "text": "Remove all garbage from the RV.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] }
+            {
+              "text": "Dispose of all trash during the return trip. Many communities along the route from Black Rock City offer 24-hour recycling and trash disposal.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Trash Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Do not bring your trash to the return branch — substantial disposal fees will apply.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Trash Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Remove all garbage from the RV.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Tanks",
           "items": [
-            { "text": "Drain the waste tanks.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Add a toilet chemical pack after emptying the black tank.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 31, "section": "Emptying the Waste Tanks", "priority": 3 }] },
-            { "text": "Emptying the freshwater tank is not required.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] }
+            {
+              "text": "Drain the waste tanks.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Add a toilet chemical pack after emptying the black tank.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 31,
+                  "section": "Emptying the Waste Tanks",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Emptying the freshwater tank is not required.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Fuel and propane",
           "items": [
-            { "text": "Fill the fuel tank to the same level as at pickup. Fill close to the return location, not 15 miles away.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Fuel & Propane Refueling", "priority": 1 }] },
-            { "text": "Double-check the gas gauge before leaving the station. The refuelling fee is $10.00 per gallon.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Fuel & Propane Refueling", "priority": 1 }] },
-            { "text": "Fill the propane tank to the same level as at pickup. The propane refuelling fee is $6.50 per gallon.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Fuel & Propane Refueling", "priority": 1 }] }
+            {
+              "text": "Fill the fuel tank to the same level as at pickup. Fill close to the return location, not 15 miles away.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Fuel & Propane Refueling",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Double-check the gas gauge before leaving the station. The refuelling fee is $10.00 per gallon.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Fuel & Propane Refueling",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Fill the propane tank to the same level as at pickup. The propane refuelling fee is $6.50 per gallon.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Fuel & Propane Refueling",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Cleaning",
           "items": [
-            { "text": "Clean the playa dust using a vinegar wash. Do not use standard cleaning products or water inside the RV.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "Clean the interior, the awning, the outer storage compartments, the undercarriage and the generator.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 4, "section": "Cleaning and Waste Disposal", "priority": 1 }] },
-            { "text": "Wash all dishes and put them back in the kitchen cabinets and drawers.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Clean the appliances, bathroom, cupboards and all surfaces. The floor needs to be broom clean, not mopped.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Remove all blue painter's tape and any decorations from the exterior.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 3, "section": "Terms and Conditions Reminder", "priority": 1 }] }
+            {
+              "text": "Clean the playa dust using a vinegar wash. Do not use standard cleaning products or water inside the RV.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Clean the interior, the awning, the outer storage compartments, the undercarriage and the generator.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 4,
+                  "section": "Cleaning and Waste Disposal",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Wash all dishes and put them back in the kitchen cabinets and drawers.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Clean the appliances, bathroom, cupboards and all surfaces. The floor needs to be broom clean, not mopped.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Remove all blue painter's tape and any decorations from the exterior.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 3,
+                  "section": "Terms and Conditions Reminder",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Personal items",
           "items": [
-            { "text": "Re-check all cupboards and storage compartments for personal items.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Check the glovebox, the cab, the bunks and the exterior compartments.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Anything left behind is considered abandoned and will be disposed of immediately without further notice.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Items left behind", "priority": 1 }] },
-            { "text": "Pack all luggage before arriving at the drop off branch.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] }
+            {
+              "text": "Re-check all cupboards and storage compartments for personal items.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Check the glovebox, the cab, the bunks and the exterior compartments.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Anything left behind is considered abandoned and will be disposed of immediately without further notice.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Items left behind",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Pack all luggage before arriving at the drop off branch.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Timing",
           "items": [
-            { "text": "Return within the 30-minute time slot selected during your Self Check-in.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Vehicle Return", "priority": 1 }] },
-            { "text": "Late returns are charged the price difference for the new slot plus $50 per hour. Unauthorised extensions are billed at double the nightly rate.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Vehicle Return", "priority": 1 }] },
-            { "text": "Allow time — drop off may take a while to complete. Schedule onward travel accordingly.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Do not leave the vehicle outside the rental lot. Vehicles left in unsafe or unauthorised areas are subject to towing and fines.", "sources": [{ "document": "Burning Man 2026 RV Rental Guide", "page": 5, "section": "Vehicle Return", "priority": 1 }] }
+            {
+              "text": "Return within the 30-minute time slot selected during your Self Check-in.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Vehicle Return",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Late returns are charged the price difference for the new slot plus $50 per hour. Unauthorised extensions are billed at double the nightly rate.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Vehicle Return",
+                  "priority": 1
+                }
+              ]
+            },
+            {
+              "text": "Allow time — drop off may take a while to complete. Schedule onward travel accordingly.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Do not leave the vehicle outside the rental lot. Vehicles left in unsafe or unauthorised areas are subject to towing and fines.",
+              "sources": [
+                {
+                  "document": "Burning Man 2026 RV Rental Guide",
+                  "page": 5,
+                  "section": "Vehicle Return",
+                  "priority": 1
+                }
+              ]
+            }
           ]
         },
         {
           "title": "Final return inspection",
           "items": [
-            { "text": "Retract the slide-outs, awning and leveling jacks, and confirm the entry step is in.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Close and lock the exterior sewer outlet and all exterior compartments.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Close all roof vents and coach windows.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Switch off the water heater, water pump, furnace, stove and generator.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Secure the Coach for Travel", "priority": 3 }] },
-            { "text": "Walk around the outside and confirm every compartment is latched and nothing is trailing.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Walk Around Tour", "priority": 3 }] },
-            { "text": "Confirm the fuel and propane gauges match the pickup levels.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 34, "section": "Pre-Drop-Off Requirements", "priority": 3 }] },
-            { "text": "Hand over one complete set of keys. If keys are separated, the guest is responsible for all replacement costs.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 8, "section": "Keys", "priority": 3 }] },
-            { "text": "Keep every receipt for oil, fuses, smoke detector batteries and approved repairs for reimbursement.", "sources": [{ "document": "El Monte RV Guest Guide — Class A", "page": 33, "section": "Repairs", "priority": 3 }] }
+            {
+              "text": "Retract the slide-outs, awning and leveling jacks, and confirm the entry step is in.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close and lock the exterior sewer outlet and all exterior compartments.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Close all roof vents and coach windows.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Switch off the water heater, water pump, furnace, stove and generator.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Secure the Coach for Travel",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Walk around the outside and confirm every compartment is latched and nothing is trailing.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Walk Around Tour",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Confirm the fuel and propane gauges match the pickup levels.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 34,
+                  "section": "Pre-Drop-Off Requirements",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Hand over one complete set of keys. If keys are separated, the guest is responsible for all replacement costs.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 8,
+                  "section": "Keys",
+                  "priority": 3
+                }
+              ]
+            },
+            {
+              "text": "Keep every receipt for oil, fuses, smoke detector batteries and approved repairs for reimbursement.",
+              "sources": [
+                {
+                  "document": "El Monte RV Guest Guide — Class A",
+                  "page": 33,
+                  "section": "Repairs",
+                  "priority": 3
+                }
+              ]
+            }
           ]
         }
       ]

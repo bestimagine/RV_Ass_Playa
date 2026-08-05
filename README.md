@@ -58,6 +58,41 @@ Several answers refuse to assert one universal rule because the sources describe
 
 The On Road Care number is never invented. The app tells you to find it on the key tag, and lets you save it locally in My RV.
 
+## How search ranks answers
+
+`public/js/search.js` is deterministic and field-aware. The same query always produces the same ordering, and nothing is fetched.
+
+Each query token earns the **best single** match it can find among the authoritative fields — `title`, `questions`, `aliases`, `keywords`, `symptoms` — plus at most one capped match from body text (`immediateAction`, `burningManOverride`, `doNot`, `steps`, `configurationVariants`). Scores are never summed across fields, so a long overview record cannot outrank a short procedure just by mentioning a word more often.
+
+On top of that:
+
+- **Phrases** are matched as every contiguous n-gram of the query, not only the whole query. Longer phrases are worth more, and only the longest match counts per field.
+- **Rarity** (inverse document frequency) scales each word by how many records contain it. Words like "burning", "man", "playa", "dust" and "return" appear across the knowledge base and are damped; words like "depot" or "whiteout" keep full weight.
+- **Exact wording** — a query identical to a record's title, authored question or alias gets the strongest non-safety boost.
+- **Intent** is inferred from the query against a fixed vocabulary: `emergency`, `troubleshoot`, `procedure`, `prevention`, `daily-routine`, `return`, `cleaning`, `checklist`, `prohibition`. Every record declares its own `intents`; overlap boosts, mismatch mildly damps.
+- **Checklists** are damped unless the query explicitly asks for one, so a procedure always beats a checklist for "what do I do now" questions.
+- **Safety** still wins: `riskLevel` boosts emergency answers, and the emergency-ventilation exception is unaffected by any of the above.
+
+### Authoring records for search
+
+Two fields exist purely for retrieval and are never rendered:
+
+- `keywords` — the words and phrases a stressed user would actually type, including brand names and colloquialisms found in the sources.
+- `intents` — one or more of the nine intents above.
+
+Put a detail in `keywords` when it is real, sourced content that only appears in a step sentence. That is how "Home Depot", "floor protection" and "blue painter's tape" became findable.
+
+### Match diagnostics
+
+For development and tests only, `explainSearch(index, query)` returns the matched fields, matched phrases and tokens, per-contribution rarity, boosts, penalties, inferred intent, final score and whether the top result passed the confidence threshold. `search()` strips this unless you pass `{ explain: true }`, so the shipped UI never sees it.
+
+```js
+import { buildIndex, explainSearch } from './public/js/search.js';
+console.log(explainSearch(buildIndex(answers, synonyms), 'brown paper'));
+```
+
+`docs/search-refinement-audit.md` records the measured behaviour that this design responds to.
+
 ## Running locally
 
 No build step, no dependencies. Serve `public/` over HTTP — a service worker will not register from `file://`.
@@ -86,7 +121,8 @@ The suite covers:
 
 - **`validate-data.test.mjs`** — record schema, unique ids, intact cross-links, source citations on every record, escalation block and checklist item, escalation matching the approved control list exactly, and each Phase 1 content decision (awning, slide seat, 30/50-amp, refrigerator, On Road Care number, Return Checklist naming, safety-precedence exception).
 - **`search.test.mjs`** — ranking for ~50 realistic queries, synonyms, typo tolerance, British and American spellings, determinism, confidence behaviour on unrecognised queries, and that every record is reachable from its own wording.
-- **`render.test.mjs`** — renders all 138 records and all 13 checklists through a minimal DOM shim, so a template that throws is caught without opening a browser.
+- **`search-ranking.test.mjs`** — regression cover for the audited queries: storm and whiteout wording leads with the dust-storm procedure, checklists only lead on explicit checklist intent, cleaning and floor-protection wording reaches the brown paper answer, outlet queries resolve confidently to the electrical records, the propane emergency and awning prohibition stay first, intent inference is stable, and body text can never outweigh an authoritative field.
+- **`render.test.mjs`** — renders every record and checklist through a minimal DOM shim, so a template that throws is caught without opening a browser.
 - **`app-shell.test.mjs`** — name consistency across the title, manifest, brand config, offline fallback and docs; app and knowledge-base version agreement across `version.js`, `service-worker.js`, `asset-manifest.json` and the data files; asset-manifest completeness against the filesystem; PWA installability; real PNG icons; accessibility basics; and that nothing calls out to a network service.
 
 ## Regenerating the icons

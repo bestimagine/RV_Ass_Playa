@@ -6,7 +6,7 @@
  * asset-manifest.json; the test suite enforces it.
  */
 
-const APP_VERSION = '1.0.0';
+const APP_VERSION = '1.1.0';
 const CACHE_PREFIX = 'rv-ai-playa';
 const CACHE_NAME = `${CACHE_PREFIX}-v${APP_VERSION}`;
 const MANIFEST_URL = './asset-manifest.json';
