@@ -1,5 +1,5 @@
 # Source documents are local development inputs only
-source-materials/
+source_materials/
 
 # Operating-system files
 .DS_Store
