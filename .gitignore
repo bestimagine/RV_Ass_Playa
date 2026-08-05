@@ -1,0 +1,11 @@
+# Source documents are local development inputs only
+source-materials/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Common temporary files
+*.log
+.env
+.env.*
