@@ -1,0 +1,14 @@
+{
+  "appName": "RV AI Assistant — Playa",
+  "shortName": "RV AI Playa",
+  "retailerName": "El Monte RV",
+  "logoPath": "assets/brand/el-monte-logo-light.png",
+  "darkLogoPath": "assets/brand/el-monte-logo-dark.png",
+  "logoAlt": "El Monte RV",
+  "approvalStatus": "unofficial",
+  "approvalLabel": "Unofficial companion guide.",
+  "referenceLabel": "Based on supplied El Monte RV guest resources",
+  "officialGuidesUrl": "https://www.elmonterv.com/guides",
+  "footerText": "Independent offline quick-reference tool based on supplied rental guides. Your rental agreement, instructions provided at pickup, labels in the RV, and directions from El Monte RV remain controlling.",
+  "onRoadCareHint": "Find the On Road Care number on the key tag."
+}

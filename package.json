@@ -1,0 +1,14 @@
+{
+  "name": "rv-ai-assistant-playa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline-first PWA for RV renters at Burning Man. Static site, no dependencies.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "start": "python3 -m http.server 8000 --directory public",
+    "icons": "node tools/generate-icons.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

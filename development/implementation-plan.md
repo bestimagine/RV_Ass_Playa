@@ -1,11 +1,11 @@
-# Implementation Plan — RV ASSistant Playa
+# Implementation Plan — RV AI Assistant — Playa
 
 Development-only file. Not deployed. Not inside `public/`.
 
 Phase 1 deliverable. Companion to `development/source-map.md`.
 
-Nothing in `public/` has been created yet. This document is the design that
-Phases 2–7 will execute.
+**Status: executed.** Phases 2–7 are built. Section 12 records how each open
+question in section 11 was resolved and where the build deviated from this plan.
 
 ---
 
@@ -506,7 +506,8 @@ El Monte site. Footer carries the exact wording from spec §15.
 
 ## 9. Tests
 
-Node's built-in test runner, zero dependencies, run with `node --test tests/`.
+Node's built-in test runner, zero dependencies, run with `npm test`
+(`node --test tests/*.test.mjs`).
 No devDependencies means nothing to install before Replit import.
 
 ### 9.1 Data validation (`validate-data.test.mjs`)
@@ -645,3 +646,52 @@ These cannot be resolved from the sources alone.
 
 Items 3–5 are editorial. Items 1 and 2 are substantive and item 1 is
 safety-critical.
+
+---
+
+## 12. Phase 2–7: decisions applied and deviations
+
+All items in section 11 were resolved by the approval instruction that opened
+Phase 2. This section records what was actually built.
+
+### 12.1 Approved decisions and where they live
+
+| Decision | Resolution as built | Enforced by |
+| --- | --- | --- |
+| App name | `RV AI Assistant — Playa` / `RV AI Playa` / `rv-ai-assistant-playa` | `app-shell.test.mjs` naming tests |
+| Safety precedence | Four-level hierarchy in `answers.instructionHierarchy`; a `conditionalGuidance` block on the six ventilation records separates "During normal playa conditions" from "During a gas, smoke, or alarm emergency" | `validate-data.test.mjs` safety-exception tests |
+| Awning | `awning-burning-man` leads with "Do not open or use the awning on the playa."; the $50 fee and retraction procedure appear only in `contextualNotes`, rendered under "General rental information" with an explicit "not an equally recommended alternative" caption | data test + `render.test.mjs` |
+| Slide driver's seat | Neutral universal instruction; both sourced positions retained under "Other RV configurations" | data test |
+| 30/50-amp | Labelled configuration variants; contextual note tells the user to check connector, RV label and pickup instructions; the one-A/C-on-generator rule retained | data test |
+| Refrigerator | Leads with the middle/manufacturer-recommended setting; "3 or COLD" is a configuration variant only; maximum-cooling caution retained in `doNot` | data test |
+| On Road Care number | Never hard-coded. `onRoadCareHint` on the envelope and in `brand-config.json`; optional local field in My RV | data test scans the whole KB for phone-number patterns |
+| Checklist naming | One checklist, id `return-checklist`, title "Return Checklist", last section "Final return inspection". Homepage shortcut, manifest shortcut, search alias, answer record and airplane-mode test all resolve to it | data test + shell test |
+| Escalation | Exactly the 24 records on the Phase 1 escalation map carry an escalation block; all others are `null`; every escalation is cited; the BRC no-on-site-service limitation appears on 11 on-playa escalations and is absent from the administrative ones | data test asserts the control list by deep equality |
+
+### 12.2 Deviations from this plan
+
+1. **Record count.** The plan estimated ~95 records; 138 were authored. The extra
+   records are mostly one-per-fault troubleshooting entries that were folded
+   together in the estimate (individual dash warning lights, the separate slide
+   failure modes, the separate water-heater faults). Splitting them keeps each
+   answer short enough to act on from a phone.
+
+2. **An eleventh category.** The plan listed ten categories. `Kitchen` was added
+   for the refrigerator, stovetop, oven, microwave and monitor panel, which
+   otherwise had no natural home.
+
+3. **Test file names.** `assets.test.mjs` and `config.test.mjs` were merged into
+   a single `app-shell.test.mjs`, and `render.test.mjs` was added. The render
+   suite installs a minimal DOM shim and renders all 138 records and all 13
+   checklists, which catches template failures the data tests cannot see.
+
+4. **`priority` is derived, not authored.** The field is now defined as the
+   highest-priority (lowest-numbered) source the record cites, and the test suite
+   enforces it. Twenty-eight records were corrected to match.
+
+5. **Two new record fields.** `conditionalGuidance` carries the safety-precedence
+   exception, and `contextualNotes` carries background that must not be presented
+   as a recommended alternative. Both were needed by the approved decisions.
+
+6. **Icons are generated.** `tools/generate-icons.mjs` writes the PNGs from code
+   rather than committing opaque binaries.

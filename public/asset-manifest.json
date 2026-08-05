@@ -1,0 +1,31 @@
+{
+  "appVersion": "1.0.0",
+  "kbVersion": "1.0.0",
+  "assets": [
+    "./",
+    "./index.html",
+    "./offline.html",
+    "./manifest.webmanifest",
+    "./asset-manifest.json",
+    "./css/styles.css",
+    "./js/app.js",
+    "./js/search.js",
+    "./js/answer-view.js",
+    "./js/storage.js",
+    "./js/profile.js",
+    "./js/offline.js",
+    "./js/install.js",
+    "./js/version.js",
+    "./data/answers.json",
+    "./data/checklists.json",
+    "./data/synonyms.json",
+    "./config/brand-config.json",
+    "./assets/icons/favicon.svg",
+    "./assets/icons/icon-192.png",
+    "./assets/icons/icon-512.png",
+    "./assets/icons/icon-maskable-512.png",
+    "./assets/icons/apple-touch-icon.png",
+    "./assets/brand/el-monte-logo-light.png",
+    "./assets/brand/el-monte-logo-dark.png"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "RV AI Assistant — Playa",
+  "short_name": "RV AI Playa",
+  "description": "Offline quick-reference for operating a rented Class A motorhome at Burning Man. Works with no signal.",
+  "id": "/rv-ai-assistant-playa",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b1610",
+  "theme_color": "#1b1610",
+  "categories": ["travel", "utilities", "reference"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "./assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Return Checklist",
+      "short_name": "Return",
+      "url": "./index.html#/checklist/return-checklist"
+    },
+    {
+      "name": "Checklists",
+      "short_name": "Checklists",
+      "url": "./index.html#/checklists"
+    },
+    {
+      "name": "Offline status",
+      "short_name": "Offline",
+      "url": "./index.html#/offline"
+    }
+  ]
+}
